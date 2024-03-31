@@ -4,7 +4,7 @@ const DashboardPage = () => {
   return (
     <div>
       Template
-      <div className ="w-[350px] border rounded-lg bg-white flex flex-col gap-[6px] p-[16px] ml-4">
+      <div className ="w-[400px] border rounded-lg bg-white flex flex-col gap-[6px] p-[16px] ml-4">
         <div className="p-[12px] flex justify-center items-center gap-[8px] ">
             <img
             src=""
