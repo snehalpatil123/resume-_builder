@@ -5,14 +5,14 @@ const DashboardPage = () => {
     <div>
       Template
       <div className ="w-[400px] border rounded-lg bg-white flex flex-col gap-[6px] p-[16px] ml-4">
-        <div className="p-[12px] flex justify-center items-center gap-[8px] ">
+        <div className="p-[12px] flex justify-start items-center gap-[8px] ">
             <img
             src=""
-            alt="sample1Img"
+            alt="Img"
             />
             <div className="flex flex-col gap-[8px]">
                 <div className="font-semibold text-[14px]">resume-builder-react-app</div>
-                <div className="font-medium text-[14px]">resume-builder-react-app <span className="text-[10px]">vercel.app</span></div>
+                <div className="font-normal text-[14px]">resume-builder-react-app <span className="text-[10px]">vercel.app</span></div>
 
             </div>
         </div>
