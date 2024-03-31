@@ -7,8 +7,11 @@ const DashboardPage = () => {
       <div className ="w-[400px] border rounded-lg bg-white flex flex-col gap-[6px] p-[16px] ml-4">
         <div className="p-[12px] flex justify-start items-center gap-[8px] ">
             <img
-            src=""
+            src="https://avatars.githubusercontent.com/u/46603495?v=4"
             alt="Img"
+            height={"50px"}
+            width={"50px"}
+            style={{borderRadius:"99px"}}
             />
             <div className="flex flex-col gap-[8px]">
                 <div className="font-semibold text-[14px]">resume-builder-react-app</div>
