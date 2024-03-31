@@ -5,6 +5,7 @@ import CheckSelectedId from "./Components/CheckSelectedId";
 import AboutUs from "./Pages/AboutUs";
 import MyResumes from "./Pages/MyResumes";
 import DashboardPage from "./Pages/dashboard";
+import LandingPage from "./Pages/landing";
 const App = () => {
   return (
     <Router>
@@ -12,6 +13,8 @@ const App = () => {
         {/* Home Page Route */}
         <Route exact path="/dashboard" element={<Home />} />
         <Route exact path="/" element={<DashboardPage />} />
+        <Route exact path="/landing" element={<LandingPage />} />
+
 
 
         {/* Details Filling Page */}
