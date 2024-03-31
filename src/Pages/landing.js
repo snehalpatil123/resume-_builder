@@ -1,6 +1,4 @@
 import React from 'react'
-import { Route, Router, Routes } from 'react-router-dom'
-import Home from './Home'
 import { Outlet, Link } from "react-router-dom";
 
 const LandingPage = () => {

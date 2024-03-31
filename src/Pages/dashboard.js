@@ -25,6 +25,7 @@ const DashboardPage = () => {
         <div claaName="text-[14px]">update</div>
         <div className="text-[12px]" >From main</div>
         <div className="text-[12px]">10 days ago</div>
+        <Outlet />
 
       </div>
     </div>
